@@ -6,6 +6,18 @@ var teamMembers =["CodeGiyu", "Natacha", "Ifechukwude", "DeeVee","Fawsiyyah", "A
 console.log(teamMembers[2]);
 
 //question 3
+var profile = {
+    "firstName": "Ifechukwude",
+    "lastName": "Nwaodor",
+    "bestMovie": "Titanic",
+    "bestFood": "friedRice",
+    "complexion":"light",
+    "birthMonth":"April",
+    "state":"Delta",
+    "groupName":"Hermes"
+}
+var bestmovie = profile.bestMovie;
+console.log(bestmovie)
 //question 4
 var noun = "London";
 var verb = "rained";
