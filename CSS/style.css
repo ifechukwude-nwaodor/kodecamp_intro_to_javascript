@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient( to left, rgb(166, 173, 241),rgb(231, 187, 213) );
+}
+
+.card{
+    width:50%;
+    height:300px;
+    background-color: #fff;
+    box-shadow: 1px 1px 30px -5px #000;
+    border-radius: 12px;
+    position: relative;
+    display:flex;
+    overflow: hidden;
+}
+
+.card ::after{
+    content: '';
+    position:absolute;
+    background-color: rgb(227, 154, 205);
+    transform: rotate(20deg) ;
+    z-index: -1;
+    bottom: 0;
+    right:0;
+    height:250px;
+    width:300px;
+    border-radius: 50px;
+
+}
+
+.cardContent{
+    width:50%;
+    margin-top: 5px;
+}
+
+.image {
+    width:100px;
+    height:100px;
+    margin-left: 5px;
+    background-color:rgb(116, 44, 94) ;
+    border-radius: 50%;
+
+}
+
+.image img{
+    width: 100%;
+}
+
+.members{
+    width:50%;
+    display:flex;
+    justify-content: flex-end;
+    z-index:1;
+}
+
+.members ul{
+    list-style: none;
+    margin-top: 80px;
+}
+
+.members ul li{
+    margin-bottom: 8px;
+    margin-right: 80px;
+}
+
+.team-name{
+    margin-top: 20px;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 5px;
+
+}
+
+.name{
+    margin-top:20px ;
+    font-size: 20px;
+    margin-left: 10px;
+    display:inline-block
+}
+
+.fa-regular{
+    margin-right: 5px;
+}
